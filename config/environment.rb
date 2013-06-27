@@ -50,7 +50,7 @@ Rails::Initializer.run do |config|
 
   # Force all environments to use the same logger level
   # (by default production uses :info, the others :debug)
-  # config.log_level = :debug
+  config.log_level = :debug
 
   # Liquid drops
   config.autoload_paths += %W( #{RAILS_ROOT}/app/drops )

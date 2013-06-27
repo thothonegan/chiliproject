@@ -491,6 +491,16 @@ class Issue < ActiveRecord::Base
     dependencies
   end
 
+  def all_precedes_issues
+    dependencies = []
+    relations_from.each do |relation|
+      next unless relation.relation_type == IssueRelation::TYPE_PRECEDES
+      dependencies << relation.issue_to
+      dependencies += relation.issue_to.all_dependent_issues
+    end
+    dependencies
+  end
+
   # Returns an array of issues that duplicate this one
   def duplicates
     relations_to.select {|r| r.relation_type == IssueRelation::TYPE_DUPLICATES}.collect {|r| r.issue_from}
