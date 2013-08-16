@@ -1022,3 +1022,5 @@ de:
   label_time_entries: Time entries
   label_new_time_entry: New time entry
   label_time_entry_report: Time entry report
+
+  text_edit_gantt_lack_of_permission: "Die Rechte zum Ticket editieren fehlen"

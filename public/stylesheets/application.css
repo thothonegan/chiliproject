@@ -2143,6 +2143,11 @@ a.close-icon:hover {
   border: 1px solid #aaa;
 }
 
+.task_none {
+  background: transparent;
+  border-style: none;
+}
+
 .task_todo.parent {
   background: #888;
   border: 1px solid #888;
