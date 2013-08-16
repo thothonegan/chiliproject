@@ -3,6 +3,7 @@
 This fork has the following extra branches:
 * thothonegan_master : Merge of master with all special branches applied
 * NONE-thothonegan_readme_changes : Branch that includes all of the readme changes applied.
+* 1288-update_liquid_gem_to_240 : Update the liquid gem to 2.4 for better template support (and feature 1288[https://www.chiliproject.org/issues/1288])
 
 Original README.rdoc:
 
