@@ -4,6 +4,9 @@ This fork has the following extra branches:
 * thothonegan_master : Merge of master with all special branches applied. Modifed README.rdoc.
 * 1288-update_liquid_gem_to_240 : Update the liquid gem to 2.4 for better template support (and feature 1288[https://www.chiliproject.org/issues/1288])
 
+Other branches merged into thothonegan_master:
+* asinteg/1277_editable_gantt[https://github.com/asinteg/chiliproject/tree/1277_editable_gantt] : Support for editing gantt easier with buttons and dragable : see issue 1277[https://www.chiliproject.org/issues/1277]
+
 Original README.rdoc:
 
 = ChiliProject {<img src="https://travis-ci.org/chiliproject/chiliproject.png?branch=master" />}[http://travis-ci.org/chiliproject/chiliproject]
