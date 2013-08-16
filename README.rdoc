@@ -1,3 +1,11 @@
+= ChiliProject - thothonegan fork
+
+This fork has the following extra branches:
+* thothonegan_master : Merge of master with all special branches applied
+* NONE-thothonegan_readme_changes : Branch that includes all of the readme changes applied.
+
+Original README.rdoc:
+
 = ChiliProject {<img src="https://travis-ci.org/chiliproject/chiliproject.png?branch=master" />}[http://travis-ci.org/chiliproject/chiliproject]
 
 ChiliProject is a web based project management system. It supports your team throughout the complete project life cycle, from setting up and discussing a project plan, over tracking issues and reporting work progress to collaboratively sharing knowledge.
